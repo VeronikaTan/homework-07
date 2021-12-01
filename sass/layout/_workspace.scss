@@ -1,0 +1,39 @@
+.workspace {
+  background-color: #ffffff;
+  padding-top: 0;
+
+  &-list {
+    margin-right: -30px;
+    display: flex;
+  }
+  &-card {
+    margin-right: 30px;
+    flex-basis: calc((100% - 90px) / 3);
+    position: relative;
+  }
+  &-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+
+  &-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: rgba(47, 48, 58, 0.8);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 100%;
+    position: absolute;
+    color: #ffffff;
+    left: 0;
+    bottom: 0;
+  }
+}

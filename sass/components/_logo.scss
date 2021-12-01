@@ -1,0 +1,30 @@
+.logo-head {
+  font-weight: 700;
+  color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: 1.19;
+  display: block;
+  margin-right: 93px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transform: rotate(0deg);
+  animation-name: logo-animation;
+  animation-duration: 2000ms;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+span {
+  color: var(--accent-color);
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--thirdparty-text-color);
+  margin-bottom: 20px;
+  display: inline-block;
+}
