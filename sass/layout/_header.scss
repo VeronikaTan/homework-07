@@ -1,0 +1,46 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.contacts {
+  color: $secondary-text-color;
+  margin-left: auto;
+}
+.contacts-links {
+  display: flex;
+
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+    color: $accent-color;
+  }
+}
+.contacts-items {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.email,
+.phone {
+  display: flex;
+  align-items: center;
+  fill: $secondary-text-color;
+  cursor: pointer;
+}
+.email-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.phone-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: inherit;
+}

@@ -1,0 +1,45 @@
+.container menu {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation,
+.site-nav,
+.contacts {
+  display: flex;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  align-items: center;
+}
+
+.current-page {
+  color: $accent-color;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    left: 0px;
+    top: 45px;
+    border-radius: 2px;
+    background-color: $accent-color;
+  }
+}
+.site-nav {
+  padding-left: 93px;
+  margin-right: 0;
+
+  &-items {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+}
