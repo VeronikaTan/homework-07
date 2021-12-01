@@ -3,7 +3,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-
   padding: 40px;
   min-width: 528px;
   min-height: 581px;
@@ -11,8 +10,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-contact-title {
   margin-bottom: 12px;
@@ -117,6 +115,7 @@
 
 .modal-form-check-link {
   color: $accent-color;
+  text-decoration: underline;
 }
 // BUTTONS
 .button-wrapper {
@@ -133,6 +132,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background: $white-color;
+  cursor: pointer;
 
   &:hover,
   &:focus {
@@ -141,4 +141,8 @@
 }
 .icon-close-button {
   align-self: center;
+}
+.modal-form-check-labell {
+  margin-right: auto;
+  margin-left: auto;
 }
